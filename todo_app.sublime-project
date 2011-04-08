@@ -27,16 +27,71 @@
 			"file": "/home/solomon/Programming/rails_projects/todo_app/config/routes.rb",
 			"settings":
 			{
-				"buffer_size": 1861,
+				"buffer_size": 1899,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "require 'spec_helper'\n\ndescribe PagesController do\n\n  describe \"GET 'home'\" do\n    it \"should be successful\" do\n      get 'home'\n      response.should be_success\n    end\n\n    it \"should have the right title\" do\n      get :home\n      response.should have_selector(\"title\", :content => \"Solomon's To Do | Home\")\n  end\n\n  describe \"GET 'contact'\" do\n    it \"should be successful\" do\n      get 'contact'\n      response.should be_success\n    end\n  end\n\nend\n",
+			"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/layouts/_footer.html.erb",
+			"settings":
+			{
+				"buffer_size": 275,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "/home/solomon/Programming/rails_projects/todo_app/spec/controllers/pages_controller_spec.rb",
 			"settings":
 			{
-				"buffer_size": 452,
+				"buffer_size": 681,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 507,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/layouts/_header.html.erb",
+			"settings":
+			{
+				"buffer_size": 220,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/solomon/Programming/rails_projects/todo_app/app/helpers/application_helper.rb",
+			"settings":
+			{
+				"buffer_size": 192,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/solomon/Programming/rails_projects/todo_app/app/controllers/pages_controller.rb",
+			"settings":
+			{
+				"buffer_size": 126,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/pages/about.html.erb",
+			"settings":
+			{
+				"buffer_size": 175,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/pages/home.html.erb",
+			"settings":
+			{
+				"buffer_size": 116,
 				"line_ending": "Unix"
 			}
 		}
@@ -172,7 +227,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -234,15 +289,15 @@
 					"file": "/home/solomon/Programming/rails_projects/todo_app/config/routes.rb",
 					"settings":
 					{
-						"buffer_size": 1861,
+						"buffer_size": 1899,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								104,
-								104
+								114,
+								114
 							]
 						],
 						"settings":
@@ -259,18 +314,44 @@
 				},
 				{
 					"buffer": 3,
-					"file": "/home/solomon/Programming/rails_projects/todo_app/spec/controllers/pages_controller_spec.rb",
+					"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/layouts/_footer.html.erb",
 					"settings":
 					{
-						"buffer_size": 452,
+						"buffer_size": 275,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								307,
-								307
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/solomon/Programming/rails_projects/todo_app/spec/controllers/pages_controller_spec.rb",
+					"settings":
+					{
+						"buffer_size": 681,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -278,6 +359,162 @@
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 507,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								263,
+								263
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/layouts/_header.html.erb",
+					"settings":
+					{
+						"buffer_size": 220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								169,
+								169
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/solomon/Programming/rails_projects/todo_app/app/helpers/application_helper.rb",
+					"settings":
+					{
+						"buffer_size": 192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								98,
+								98
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/home/solomon/Programming/rails_projects/todo_app/app/controllers/pages_controller.rb",
+					"settings":
+					{
+						"buffer_size": 126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								113,
+								113
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/pages/about.html.erb",
+					"settings":
+					{
+						"buffer_size": 175,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								175,
+								175
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/pages/home.html.erb",
+					"settings":
+					{
+						"buffer_size": 116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0,
 						"translation.y": 0,

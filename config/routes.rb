@@ -1,4 +1,6 @@
 TodoApp::Application.routes.draw do
+  resources :lists
+
   devise_for :users
 
   get "pages/home"

@@ -43,7 +43,47 @@
 			"file": "/home/solomon/Programming/rails_projects/todo_app/Gemfile",
 			"settings":
 			{
-				"buffer_size": 900,
+				"buffer_size": 932,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/lists/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 322,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/lists/edit.html.erb",
+			"settings":
+			{
+				"buffer_size": 160,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/lists/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 155,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/lists/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 156,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/lists/_list_fields.html.erb",
+			"settings":
+			{
+				"buffer_size": 240,
 				"line_ending": "Unix"
 			}
 		},
@@ -59,7 +99,7 @@
 			"file": "/home/solomon/Programming/rails_projects/todo_app/spec/controllers/lists_controller_spec.rb",
 			"settings":
 			{
-				"buffer_size": 673,
+				"buffer_size": 1435,
 				"line_ending": "Unix"
 			}
 		},
@@ -75,7 +115,15 @@
 			"file": "/home/solomon/Programming/rails_projects/todo_app/app/controllers/lists_controller.rb",
 			"settings":
 			{
-				"buffer_size": 606,
+				"buffer_size": 1241,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/shared/_error_messages.html.erb",
+			"settings":
+			{
+				"buffer_size": 412,
 				"line_ending": "Unix"
 			}
 		},
@@ -92,6 +140,14 @@
 			"settings":
 			{
 				"buffer_size": 399,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/layouts/_header.html.erb",
+			"settings":
+			{
+				"buffer_size": 454,
 				"line_ending": "Unix"
 			}
 		}
@@ -242,7 +298,7 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -356,15 +412,15 @@
 					"file": "/home/solomon/Programming/rails_projects/todo_app/Gemfile",
 					"settings":
 					{
-						"buffer_size": 900,
+						"buffer_size": 932,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								205,
-								205
+								155,
+								155
 							]
 						],
 						"settings":
@@ -379,6 +435,136 @@
 				},
 				{
 					"buffer": 5,
+					"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/lists/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								322,
+								322
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/lists/edit.html.erb",
+					"settings":
+					{
+						"buffer_size": 160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/lists/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 155,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								75
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/lists/new.html.erb",
+					"settings":
+					{
+						"buffer_size": 156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								156,
+								156
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/lists/_list_fields.html.erb",
+					"settings":
+					{
+						"buffer_size": 240,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								230,
+								230
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
 					"file": "/home/solomon/Programming/rails_projects/todo_app/spec/factories.rb",
 					"settings":
 					{
@@ -404,19 +590,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 11,
 					"file": "/home/solomon/Programming/rails_projects/todo_app/spec/controllers/lists_controller_spec.rb",
 					"settings":
 					{
-						"buffer_size": 673,
+						"buffer_size": 1435,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								666,
-								666
+								1428,
+								1428
 							]
 						],
 						"settings":
@@ -425,13 +611,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0,
-						"translation.y": 0,
+						"translation.y": 528,
 						"zoom_level": 1
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 12,
 					"file": "/home/solomon/Programming/rails_projects/todo_app/spec/models/list_spec.rb",
 					"settings":
 					{
@@ -457,19 +643,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 13,
 					"file": "/home/solomon/Programming/rails_projects/todo_app/app/controllers/lists_controller.rb",
 					"settings":
 					{
-						"buffer_size": 606,
+						"buffer_size": 1241,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								381,
-								381
+								370,
+								370
 							]
 						],
 						"settings":
@@ -484,7 +670,35 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 14,
+					"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/shared/_error_messages.html.erb",
+					"settings":
+					{
+						"buffer_size": 412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								412,
+								412
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
 					"file": "/home/solomon/Programming/rails_projects/todo_app/app/models/user.rb",
 					"settings":
 					{
@@ -510,7 +724,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 16,
 					"file": "/home/solomon/Programming/rails_projects/todo_app/app/models/list.rb",
 					"settings":
 					{
@@ -528,6 +742,33 @@
 						"settings":
 						{
 							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/layouts/_header.html.erb",
+					"settings":
+					{
+						"buffer_size": 454,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								269,
+								269
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0,
 						"translation.y": 0,

@@ -1,0 +1,11 @@
+<h1>Lists</h1>
+<%= link_to "New List", new_list_path %></br>
+
+<ul>
+<% @lists.each do |list| %>
+	<li><%= link_to list.name, list_path(list) %></li>
+	
+	<%= link_to "delete", list, :method => :delete, :confirm => "you sure you want to delete the list?", :title => "Delete #{list.name}" %>
+<% end %>
+</ul>
+<%= will_paginate %>

@@ -1,0 +1,8 @@
+<h1>Edit List</h1>
+
+<%= form_for(@list) do |f| %>
+  <%= render 'list_fields', :f => f %>
+  <div class="actions">
+    <%= f.submit "Update" %>
+  </div>
+<% end %>

@@ -28,6 +28,7 @@ class ListsController < ApplicationController
 	def show
 		@title = "List"
 		@list = List.find(params[:id])
+		@todo = @list.todos.new
 	end
 
 	def edit

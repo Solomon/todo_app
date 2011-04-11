@@ -1,7 +1,7 @@
 class CreateTodos < ActiveRecord::Migration
   def self.up
     create_table :todos do |t|
-      t.strong :description
+      t.string :description
       t.boolean :completed, :default => false
       t.integer :list_id
 

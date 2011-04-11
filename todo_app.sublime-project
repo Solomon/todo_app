@@ -7,37 +7,19 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/home/solomon/Programming/rails_projects/todo_app/config/routes.rb",
-			"settings":
-			{
-				"buffer_size": 1960,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/solomon/Programming/rails_projects/todo_app/app/models/list.rb",
-			"settings":
-			{
-				"buffer_size": 441,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/solomon/Programming/rails_projects/todo_app/db/migrate/20110411160149_create_tasks.rb",
-			"settings":
-			{
-				"buffer_size": 271,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"file_history":
 	[
+		"/home/solomon/Programming/rails_projects/todo_app/config/routes.rb",
+		"/home/solomon/Programming/rails_projects/todo_app/db/schema.rb",
+		"/home/solomon/Programming/rails_projects/todo_app/db/migrate/20110411164141_create_todos.rb",
+		"/home/solomon/Programming/rails_projects/todo_app/app/controllers/todos_controller.rb",
 		"/home/solomon/Programming/rails_projects/todo_app/app/models/task.rb",
-		"/home/solomon/Programming/rails_projects/todo_app/app/views/layouts/_header.html.erb",
+		"/home/solomon/Programming/rails_projects/todo_app/db/migrate/20110411160149_create_tasks.rb",
+		"/home/solomon/Programming/rails_projects/todo_app/app/helpers/tasks_helper.rb",
 		"/home/solomon/Programming/rails_projects/todo_app/app/models/list.rb",
+		"/home/solomon/Programming/rails_projects/todo_app/app/views/layouts/_header.html.erb",
 		"/home/solomon/Programming/rails_projects/todo_app/app/controllers/lists_controller.rb",
 		"/home/solomon/Programming/rails_projects/todo_app/spec/models/list_spec.rb",
 		"/home/solomon/Programming/rails_projects/todo_app/spec/controllers/lists_controller_spec.rb",
@@ -64,7 +46,6 @@
 		"/home/solomon/Programming/rails_projects/todo_app/spec/support/devise.rb",
 		"/home/solomon/Programming/rails_projects/todo_app/spec/controllers/pages_controller_spec.rb",
 		"/home/solomon/Programming/rails_projects/todo_app/app/views/layouts/_footer.html.erb",
-		"/home/solomon/Programming/rails_projects/todo_app/config/routes.rb",
 		"/home/solomon/Programming/rails_projects/todo_app/README",
 		"/home/solomon/Programming/rails_projects/sample_app/app/models/micropost.rb",
 		"/home/solomon/Programming/rails_projects/sample_app/app/helpers/application_helper.rb",
@@ -159,9 +140,11 @@
 	{
 		"include_history":
 		[
+			""
 		],
 		"location_history":
 		[
+			"<open folders>"
 		]
 	},
 	"find_state":
@@ -169,6 +152,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"task",
 			"font"
 		],
 		"highlight": true,
@@ -177,6 +161,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"todo"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -194,91 +179,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/home/solomon/Programming/rails_projects/todo_app/config/routes.rb",
-					"settings":
-					{
-						"buffer_size": 1960,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0,
-						"translation.y": 0,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/solomon/Programming/rails_projects/todo_app/app/models/list.rb",
-					"settings":
-					{
-						"buffer_size": 441,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								360,
-								360
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0,
-						"translation.y": 0,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/solomon/Programming/rails_projects/todo_app/db/migrate/20110411160149_create_tasks.rb",
-					"settings":
-					{
-						"buffer_size": 271,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								146,
-								146
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0,
-						"translation.y": 0,
-						"zoom_level": 1
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -373,6 +275,6 @@
 	"show_minimap": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 227,
+	"side_bar_width": 338,
 	"status_bar_visible": true
 }

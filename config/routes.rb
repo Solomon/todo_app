@@ -3,15 +3,18 @@ TodoApp::Application.routes.draw do
 
   resources :todos
 
-  resources :lists
+  resources :lists do
+    resources :todos
+  end
 
   devise_for :users
-
+  match 'lists/:list_id/todos/:id/complete' => 'todos#complete', :as => :complete_todo
   get "pages/home"
 
   get "pages/about"
 
   match '/about', :to => 'pages#about'
+
 
   root :to => "pages#home"
 

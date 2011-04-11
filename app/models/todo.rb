@@ -1,5 +1,2 @@
-class Task < ActiveRecord::Base
-
-	belongs_to :list
-
+class Todo < ActiveRecord::Base
 end

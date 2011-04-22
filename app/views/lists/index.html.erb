@@ -3,7 +3,8 @@
 
 <ul>
 <% @lists.each do |list| %>
-	<li><%= link_to list.name, list_path(list) %>
+	<li><%= link_to list.name, list_path(list) %>, <%= list.todos.incomplete.count %> incomplete,
+		<%= list.todos.completed.count %> completed, 
 	<%= link_to "delete", list, :method => :delete, :confirm => "you sure you want to delete the list?", :title => "Delete #{list.name}" %>
 	</li>
 	

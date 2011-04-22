@@ -7,3 +7,8 @@ end
 Factory.sequence :email do |n|
 	"person-#{n}@example.com"
 end
+
+Factory.define :list do |list|
+	list.name "My List"
+	list.association :user
+end

@@ -3,38 +3,89 @@
 	{
 		"selected_items":
 		[
+			[
+				"li",
+				"li"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "/home/solomon/Programming/rails_projects/todo_app/app/controllers/pages_controller.rb",
+			"settings":
+			{
+				"buffer_size": 236,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/pages/home.html.erb",
+			"settings":
+			{
+				"buffer_size": 152,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/shared/_todo_feed.html.erb",
+			"settings":
+			{
+				"buffer_size": 273,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/shared/_todo_item.html.erb",
+			"settings":
+			{
+				"buffer_size": 59,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/lists/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 422,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"file_history":
 	[
+		"/home/solomon/Programming/rails_projects/todo_app/app/models/user.rb",
+		"/home/solomon/Programming/rails_projects/todo_app/app/models/todo.rb",
+		"/home/solomon/Programming/rails_projects/todo_app/app/views/layouts/application.html.erb",
+		"/home/solomon/Programming/rails_projects/todo_app/app/views/layouts/_flash_message.html.erb",
+		"/home/solomon/Programming/rails_projects/todo_app/spec/models/list_spec.rb",
+		"/home/solomon/Programming/rails_projects/todo_app/spec/models/todo_spec.rb",
+		"/home/solomon/Programming/rails_projects/todo_app/spec/factories.rb",
+		"/home/solomon/Programming/rails_projects/todo_app/spec/models/user_spec.rb",
+		"/home/solomon/Programming/rails_projects/todo_app/app/views/lists/index.html.erb",
 		"/home/solomon/Programming/rails_projects/todo_app/config/routes.rb",
-		"/home/solomon/Programming/rails_projects/todo_app/db/schema.rb",
-		"/home/solomon/Programming/rails_projects/todo_app/db/migrate/20110411164141_create_todos.rb",
 		"/home/solomon/Programming/rails_projects/todo_app/app/controllers/todos_controller.rb",
+		"/home/solomon/Programming/rails_projects/todo_app/app/controllers/lists_controller.rb",
+		"/home/solomon/Programming/rails_projects/todo_app/app/views/lists/show.html.erb",
+		"/home/solomon/Programming/rails_projects/todo_app/db/migrate/20110411164141_create_todos.rb",
+		"/home/solomon/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/solomon/.config/sublime-text-2/Packages/Default/Base File.sublime-settings",
+		"/home/solomon/.config/sublime-text-2/Packages/Default/Global.sublime-settings",
+		"/home/solomon/.config/sublime-text-2/Packages/User/Base File.sublime-settings",
+		"/home/solomon/Programming/rails_projects/todo_app/app/models/list.rb",
+		"/home/solomon/Programming/rails_projects/todo_app/db/schema.rb",
 		"/home/solomon/Programming/rails_projects/todo_app/app/models/task.rb",
 		"/home/solomon/Programming/rails_projects/todo_app/db/migrate/20110411160149_create_tasks.rb",
 		"/home/solomon/Programming/rails_projects/todo_app/app/helpers/tasks_helper.rb",
-		"/home/solomon/Programming/rails_projects/todo_app/app/models/list.rb",
 		"/home/solomon/Programming/rails_projects/todo_app/app/views/layouts/_header.html.erb",
-		"/home/solomon/Programming/rails_projects/todo_app/app/controllers/lists_controller.rb",
-		"/home/solomon/Programming/rails_projects/todo_app/spec/models/list_spec.rb",
 		"/home/solomon/Programming/rails_projects/todo_app/spec/controllers/lists_controller_spec.rb",
-		"/home/solomon/Programming/rails_projects/todo_app/spec/factories.rb",
 		"/home/solomon/Programming/rails_projects/todo_app/app/views/lists/_list_fields.html.erb",
 		"/home/solomon/Programming/rails_projects/todo_app/app/views/lists/new.html.erb",
-		"/home/solomon/Programming/rails_projects/todo_app/app/views/lists/show.html.erb",
 		"/home/solomon/Programming/rails_projects/todo_app/app/views/lists/edit.html.erb",
-		"/home/solomon/Programming/rails_projects/todo_app/app/views/lists/index.html.erb",
 		"/home/solomon/Programming/rails_projects/todo_app/Gemfile",
-		"/home/solomon/Programming/rails_projects/todo_app/spec/models/user_spec.rb",
 		"/home/solomon/Programming/rails_projects/todo_app/public/stylesheets/custom.css",
 		"/home/solomon/Programming/rails_projects/todo_app/app/views/layouts/_stylesheets.html.erb",
-		"/home/solomon/Programming/rails_projects/todo_app/app/views/layouts/application.html.erb",
-		"/home/solomon/Programming/rails_projects/todo_app/app/models/user.rb",
 		"/home/solomon/Programming/rails_projects/todo_app/app/views/shared/_error_messages.html.erb",
 		"/home/solomon/Programming/rails_projects/todo_app/config/initializers/devise.rb",
 		"/home/solomon/Programming/rails_projects/todo_app/db/migrate/20110408153737_devise_create_users.rb",
@@ -111,7 +162,6 @@
 		"/home/solomon/Programming/rails_projects/sample_app/app/helpers/users_helper.rb",
 		"/home/solomon/Programming/rails_projects/sample_app/db/migrate/20110330155303_add_email_uniqueness_index.rb",
 		"/host/Users/Solomon/Dropbox/PlainText/To do/Done.txt",
-		"/home/solomon/.config/sublime-text-2/Packages/Default/Base File.sublime-settings",
 		"/home/solomon/Programming/rails_projects/sample_app/.gitignore",
 		"/home/solomon/Programming/rails_projects/sample_app/app/views/layouts/_stylesheets.html.erb",
 		"/home/solomon/Programming/rails_projects/sample_app/app/views/layouts/_footer.html.erb",
@@ -132,9 +182,7 @@
 		"/home/solomon/Programming/rails_projects/first_app/.gitignore",
 		"/home/solomon/Programming/rails_projects/first_app/Gemfile",
 		"/home/solomon/Programming/rails_projects/first_app/Gemfile.lock",
-		"/host/Users/Solomon/Dropbox/PlainText/To do/To do.txt",
-		"/home/solomon/Programming/rails_projects/first_app/README.markdown",
-		"/home/solomon/.config/sublime-text-2/Packages/Default/Global.sublime-settings"
+		"/host/Users/Solomon/Dropbox/PlainText/To do/To do.txt"
 	],
 	"find_in_files":
 	{
@@ -179,8 +227,139 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/home/solomon/Programming/rails_projects/todo_app/app/controllers/pages_controller.rb",
+					"settings":
+					{
+						"buffer_size": 236,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/pages/home.html.erb",
+					"settings":
+					{
+						"buffer_size": 152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								152,
+								152
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/shared/_todo_feed.html.erb",
+					"settings":
+					{
+						"buffer_size": 273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								273,
+								273
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/shared/_todo_item.html.erb",
+					"settings":
+					{
+						"buffer_size": 59,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19,
+								19
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/solomon/Programming/rails_projects/todo_app/app/views/lists/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 422,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								237,
+								237
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

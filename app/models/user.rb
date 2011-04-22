@@ -27,4 +27,5 @@ class User < ActiveRecord::Base
   attr_accessible :email, :password, :password_confirmation, :remember_me
 
   has_many :lists, :dependent => :destroy
+  has_many :todos, :through => :lists
 end
